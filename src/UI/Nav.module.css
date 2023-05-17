@@ -1,0 +1,52 @@
+.nav {
+  width: 100vw;
+  /* background-color: #333; */
+  position: fixed;
+  padding: 4rem;
+}
+a {
+  text-decoration: none !important;
+}
+
+.shrink {
+  position: fixed;
+  /* top: 0; */
+  background-color: #fff !important;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+  padding: 1.9rem 0 !important;
+  /* top: -2rem; */
+  transition: 0.2s ease-in-out;
+  backdrop-filter: blur(10px);
+  z-index: 99;
+}
+.chitta {
+  /* color: #fff !important; */
+}
+.nav-section {
+  display: flex;
+  align-items: center;
+  width: 120rem;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 2.8rem;
+}
+
+.nav-lists {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  font-size: 1.8rem;
+}
+
+.link-list {
+  color: #444;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.link-list:hover,
+.link-list:active {
+  color: #666;
+}

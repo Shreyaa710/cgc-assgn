@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+  font-family: Helvetica;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+.testimonial-container {
+  width: 100vw;
+  height: 60rem;
+  margin: 0 auto;
+}
+
+.testimonial-div-head {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.testimonial-heading {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 8rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.spl-head {
+  color: #5236ff;
+}
+
+.testimonial-box {
+  display: flex;
+  gap: 2rem;
+
+  /* overflow-x: scroll; */
+}
+
+.img-testi {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.testi-box {
+  background-color: #eeedea;
+  padding: 2rem;
+  min-width: 40rem;
+  border-radius: 2rem;
+}
+
+.testi-para {
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+}
+
+.testimonial-box::-webkit-scrollbar {
+  display: none;
+}
+
+.person-info {
+  display: flex;
+  gap: 1rem;
+}
+
+.testi-name {
+  font-size: 1.6rem;
+  margin-top: 0.4rem;
+}
+
+.faded-info {
+  color: #999;
+  font-size: 1.2rem;
+  margin-top: 0.4rem;
+}
+
+.icon-star {
+  width: 2rem;
+  height: 2rem;
+  color: #f4e241;
+}
+
+.person-info-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-box {
+  align-self: flex-end;
+}
+
+.testi-box-2 {
+  margin-top: 2rem;
+}
+.testimonial-container {
+  transform: translate3d(0, 0, 0);
+}
+
+.testimonial-box {
+  /* height: 200px; */
+  /* width: 2526px; */
+  /* background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/collage.jpg); */
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  /* height: 100%; */
+  transform: translate3d(0, 0, 0);
+}
+.testimonial-box {
+  animation: moveSlideshow 12s linear infinite;
+}
+.testi-box-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  /* position: absolute; */
+  /* right: 0 !important; */
+  animation: moveSlideshow2 12s linear infinite !important;
+}
+/* .tech-slideshow .mover-2 {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 -200px;
+  animation: moveSlideshow 15s linear infinite;
+} */
+/* .tech-slideshow:hover .mover-2 {
+  opacity: 1;
+} */
+
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-36.6666%);
+  }
+}
+@keyframes moveSlideshow2 {
+  100% {
+    transform: translateX(36.6666%);
+  }
+}
