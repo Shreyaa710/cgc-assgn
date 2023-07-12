@@ -88,3 +88,21 @@ html {
 .btn-hero:hover {
   background-color: #4a479d;
 }
+
+@media screen and (max-width: 750px) {
+  .hero-section {
+    width: 100vw;
+  }
+  .hero-content {
+    width: 90vw;
+  }
+  .hero-head {
+    font-size: 4rem;
+  }
+  .hero-para {
+    font-size: 2rem;
+  }
+  .input {
+    display: none;
+  }
+}
